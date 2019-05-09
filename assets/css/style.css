@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  font-family: Comfortaa,quicksand, sans-serif;
+}
+
+img {
+  max-width: 500px;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px auto;
+  flex-direction: column; 
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  height: 650px;
+  background-image: linear-gradient(to right bottom, #35da98, #00cba0, #00bba4, #00aba4, #0c9b9f);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-pannel {
+  display: flex;
+  justify-content: center;
+  align-items: spaces-around;
+  width: 100%;
+}
+
+.detail {
+  width: 70%;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 25px;
+  background:transparent;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color:white;
+  font-weight: bold;
+  border: white 2px solid;
+  text-decoration: none;
+  margin: 40px 16px;
+}
+
+.description {
+  margin: 10px 30px;
+}
+
+.proj-title {
+  font-size: 80px;
+}
+
+.description h1 {
+  color: #35DA98;
+  font-size: 38px;
+}
+
+.detail img, .overview img {
+  border-radius: 12px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+footer {
+  width: 70%;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px auto;
+}
+
+.collab {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.header img {
+  width: 150px;
+}
+
+.profile {
+  margin: 50px;
+}
+
+.partition {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.profile img {
+  width: 20px;
+  margin: 8px 5px;
+}
+
+.credits {
+  margin: 80px auto;
+  font-size: 10px;
+}
+
+footer h1 {
+  color: #35DA98;
+}
