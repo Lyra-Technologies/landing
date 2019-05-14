@@ -15,5 +15,5 @@ const PORT = process.env.PORT || 5000
 
 app.use('/assets',express.static(path.join(__dirname, '/assets/')));
 app.use('/build', express.static(path.join(__dirname, 'build')));
-app.get('/', (req, res) => res.sendFile(path.join(__dirname + "/src/testmain.html")))  
+app.get('/', (req, res) => res.sendFile(path.join(__dirname + "/testmain.html")))  
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
